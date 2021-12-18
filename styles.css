@@ -1,0 +1,100 @@
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: black;
+}
+.bg-white {
+    background-color: white;
+}
+.bg-grey {
+    background-color: rgb(126, 126, 126)
+}
+.bg-lightgrey {
+    background-color:rgb(235, 235, 235);
+}
+.bg-darkgrey {
+    background-color: #222222;
+}
+.bg-blackish {
+    background-color: #222222;
+}
+
+.bg-darkblack {
+    background-color: #1d1d1d;
+}
+.bg-grey p, .bg-blackish p {
+    color: white;
+}
+.bg-grey a, .bg-blackish a {
+    color: white;
+}
+.bg-grey h1, .bg-grey h2, .bg-grey h3, .bg-darkgrey h6 {
+    color: white;
+}
+.bg-darkgrey h6, .bg-darkgrey p {
+    color: grey;
+}
+.grow { 
+    transition: all .2s ease-in-out;
+}
+.grow:hover {
+    transform: scale(1.01);
+}
+
+/* tekster */ 
+
+h1, h2, h3, h6 {
+    font-family: 'neutra text', sans-serif;
+}
+h6 {
+    font-weight: bolder;
+}
+p {
+    font-family: 'neutra text', sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+/* logo */ 
+.navbar-brand {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* footer */ 
+
+#footer i {
+    font-family: 'neutra text', sans-serif;
+    color: black;
+    opacity: 0.8;
+    transition: 0.2s;
+
+}
+#footer i:hover {
+    opacity: 1;
+    color: orange;
+}
+/* Buttons */
+.btn-anne {
+    background-color: #f29100;
+    color: white;
+    border: none;
+}
+.btn-anne:hover {
+    background-color: #d17d00;
+    color: white;
+    border: none;
+}
+.card {
+    font-family: 'neutra text', sans-serif;
+    background-color: transparent;
+    border: none;
+}
+section {
+    padding: 20px 0px 60px 0px;
+}
+.section-title {
+ 
+    margin: 40px 0px 60px 0px;
+    text-align: center;
+}
